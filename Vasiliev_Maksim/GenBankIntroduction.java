@@ -16,8 +16,9 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-public class App 
+public class GenBankIntroduction
 {
+    public static final String base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi";
 
     public static void main(String[] args) throws MalformedURLException, ProtocolException, IOException, SAXException, ParserConfigurationException
     {
@@ -25,11 +26,8 @@ public class App
         String genname = in.nextLine();
         String from = in.nextLine();
         String to = in.nextLine();
-        String base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi";
 
         String test_url = String.format("%s?db=nucleotide&term=(%s[Organism])+AND+(\"%s\"[PDAT]:\"%s\"[PDAT])", base_url, genname, from, to);
-
-        System.out.println(test_url);
 
         URL url =  new URL(test_url);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
