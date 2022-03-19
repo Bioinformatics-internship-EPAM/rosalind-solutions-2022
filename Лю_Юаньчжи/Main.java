@@ -21,6 +21,12 @@ public class Main {
 		
 	System.out.println("Mendel's First Law:");
         MendelsFirstLaw.calculateProbability ("resources/rosalind_iprb.txt");
+		
+	System.out.println("Finding a Motif in DNA:");
+        FindingaMotifinDNA.findMotif("resources/rosalind_subs.txt");
+        
+        System.out.println("Mortal Fibonacci Rabbits:");
+        MortalFibonacciRabbits.calculateRabbitPairs("resources/rosalind_fibd.txt");
 	}
 
 }
