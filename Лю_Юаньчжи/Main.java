@@ -12,6 +12,9 @@ public class Main {
 		
 	System.out.println("Complementing a Strand of DNA:");
         ComplementingaStrandofDNA.complementDNA("resources/rosalind_revc.txt");
+		
+	System.out.println("Calculating Rabbit Pairs:");
+        RabbitsandRecurrenceRelations.calculateRabbitPairs("resources/rosalind_fib.txt");
 	}
 
 }
