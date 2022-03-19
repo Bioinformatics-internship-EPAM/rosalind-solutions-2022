@@ -9,6 +9,9 @@ public class Main {
 		
 	System.out.println("Transcribing DNA into RNA:");
         TranscribingDNAintoRNA.transcribeDNA("resources/rosalind_rna.txt");
+		
+	System.out.println("Complementing a Strand of DNA:");
+        ComplementingaStrandofDNA.complementDNA("resources/rosalind_revc.txt");
 	}
 
 }
