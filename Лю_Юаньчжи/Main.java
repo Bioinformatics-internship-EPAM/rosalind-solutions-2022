@@ -15,6 +15,9 @@ public class Main {
 		
 	System.out.println("Calculating Rabbit Pairs:");
         RabbitsandRecurrenceRelations.calculateRabbitPairs("resources/rosalind_fib.txt");
+		
+	System.out.println("Counting Point Mutations:");
+        CountingPointMutations.countMutations("resources/rosalind_hamm.txt");
 	}
 
 }
