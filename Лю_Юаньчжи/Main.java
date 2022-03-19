@@ -18,6 +18,9 @@ public class Main {
 		
 	System.out.println("Counting Point Mutations:");
         CountingPointMutations.countMutations("resources/rosalind_hamm.txt");
+		
+	System.out.println("Mendel's First Law:");
+        MendelsFirstLaw.calculateProbability ("resources/rosalind_iprb.txt");
 	}
 
 }
