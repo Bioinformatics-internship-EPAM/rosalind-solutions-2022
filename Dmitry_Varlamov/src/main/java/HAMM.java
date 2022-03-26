@@ -16,3 +16,4 @@ public class HAMM {
         return result;
     }
 }
+
