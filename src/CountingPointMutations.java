@@ -6,6 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
+//https://rosalind.info/problems/hamm/
 
 public class CountingPointMutations {
     public static void main(String[] args) throws IOException {
