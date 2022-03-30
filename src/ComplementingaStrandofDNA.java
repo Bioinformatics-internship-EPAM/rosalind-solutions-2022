@@ -8,6 +8,9 @@ import java.util.List;
 
 //https://rosalind.info/problems/revc/
 
+//Given: A DNA string s of length at most 1000 bp.
+//Return: The reverse complement sc of s.
+
 public class ComplementingaStrandofDNA {
     public static void main(String[] args) throws IOException {
         List<String> lines = Files.readAllLines(Paths.get("D:\\project.java\\bioinformatics\\resources\\REVC.txt"),
