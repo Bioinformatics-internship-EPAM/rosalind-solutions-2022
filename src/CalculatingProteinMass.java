@@ -11,10 +11,10 @@ import java.util.List;
 
  // https://rosalind.info/problems/prtm/
 
-/*
-*Given: A protein string P of length at most 1000 aa.
-*Return: The total weight of P. Consult the monoisotopic mass table.
-*/
+
+//Given: A protein string P of length at most 1000 aa.
+//Return: The total weight of P. Consult the monoisotopic mass table.
+
 
 public class CalculatingProteinMass {
     public static void main(String[] args) {
