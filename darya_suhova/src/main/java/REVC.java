@@ -1,18 +1,27 @@
+import com.google.common.collect.ImmutableMap;
+
+import java.util.Map;
 import java.util.Scanner;
 
 public class REVC {
     public static void main(String[] args) {
+        Map<Character, Character> map = ImmutableMap.of(
+            'T', 'A',
+            'A', 'T',
+            'C', 'G',
+            'G', 'C');
+
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+        char[] input = scanner.nextLine().toCharArray();
+        char[] resultArr = new char[input.length];
 
-        String result = new StringBuilder(input)
-            .reverse().toString()
-            .replaceAll("T", "a")
-            .replaceAll("A", "t")
-            .replaceAll("C", "g")
-            .replaceAll("G", "c")
-            .toUpperCase();
+        for (int i = 0; i < input.length; i++) {
+            if (map.containsKey(input[i])) {
+                resultArr[input.length - 1 - i] = map.get(input[i]);
+            }
+        }
 
+        String result = String.valueOf(resultArr);
         System.out.println(result);
     }
 }

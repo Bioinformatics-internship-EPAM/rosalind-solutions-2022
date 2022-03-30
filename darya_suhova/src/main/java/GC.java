@@ -21,11 +21,11 @@ public class GC {
                 gcCount = 0;
                 length = 0;
             } else {
-                length += input.length();
-                gcCount += input.length() - input
-                    .replaceAll("G", "")
-                    .replaceAll("C", "")
-                    .length();
+                char[] inputArr = input.toCharArray();
+                for (char c : inputArr) {
+                    if (c == 'G' || c == 'C') gcCount++;
+                }
+                length += inputArr.length;
             }
             input = scanner.nextLine();
         }
