@@ -2,6 +2,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Map;
 import java.util.stream.IntStream;
+/*
+Solution for the task https://rosalind.info/problems/revc/
+Sample input: AAAACCCGGT
+Sample output: ACCGGGTTTT
+*/
 
 public class REVC {
 

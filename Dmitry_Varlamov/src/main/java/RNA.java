@@ -1,5 +1,10 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
+/*
+Solution for the task https://rosalind.info/problems/rna/
+Sample input: GATGGAACTTGACTACGTAAATT
+Sample output: GAUGGAACUUGACUACGUAAAUU
+*/
 
 public class RNA {
 

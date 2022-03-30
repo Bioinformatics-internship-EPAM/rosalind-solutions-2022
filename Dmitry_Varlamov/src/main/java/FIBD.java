@@ -2,6 +2,11 @@ import java.math.BigInteger;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+/*
+Solution for the task https://rosalind.info/problems/fibd/
+Sample input: 6 3
+Sample output: 4
+*/
 
 public class FIBD {
 

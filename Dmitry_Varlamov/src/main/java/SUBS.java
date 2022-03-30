@@ -1,6 +1,13 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.StringJoiner;
+/*
+Solution for the task https://rosalind.info/problems/subs/
+Sample input:
+GATATATGCATATACTT
+ATAT
+Sample output: 2 4 10
+*/
 
 public class SUBS {
 

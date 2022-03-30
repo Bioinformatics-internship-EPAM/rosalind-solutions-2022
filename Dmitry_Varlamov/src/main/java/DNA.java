@@ -3,6 +3,11 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
+/*
+Solution for the task https://rosalind.info/problems/dna/
+Sample input: AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
+Sample output: 20 12 17 21
+*/
 
 public class DNA {
     public static void main(String[] args) throws Exception {

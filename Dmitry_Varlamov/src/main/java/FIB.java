@@ -1,5 +1,10 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
+/*
+Solution for the task https://rosalind.info/problems/fib/
+Sample input: 5 3
+Sample output: 19
+*/
 
 public class FIB {
 

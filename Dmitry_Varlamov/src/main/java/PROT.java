@@ -1,8 +1,11 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.stream.IntStream;
+/*
+Solution for the task https://rosalind.info/problems/prot/
+Sample input: AUGGCCAUGGCGCCCAGAACUGAGAUCAAUAGUACCCGUAUUAACGGGUGA
+Sample output: MAMAPRTEINSTRING
+*/
 
 public class PROT {
     public static void main(String[] args) throws Exception {

@@ -1,6 +1,11 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Map;
+/*
+Solution for the task https://rosalind.info/problems/iprb/
+Sample input: 2 2 2
+Sample output: 0.78333
+*/
 
 public class IPRB {
 

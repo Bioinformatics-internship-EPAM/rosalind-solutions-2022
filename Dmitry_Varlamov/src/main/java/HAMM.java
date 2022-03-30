@@ -1,6 +1,13 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.IntStream;
+/*
+Solution for the task https://rosalind.info/problems/hamm/
+Sample input:
+GAGCCTACTAACGGGAT
+CATCGTAATGACGGCCT
+Sample output: 7
+*/
 
 
 

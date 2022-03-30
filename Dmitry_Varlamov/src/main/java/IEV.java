@@ -1,6 +1,11 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.IntStream;
+/*
+Solution for the task https://rosalind.info/problems/iev/
+Sample input: 1 0 0 1 0 1
+Sample output: 3.5
+*/
 
 public class IEV {
 
