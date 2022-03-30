@@ -1,3 +1,10 @@
+// Counting Point Mutations
+// https://rosalind.info/problems/hamm/
+
+// Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
+// Return: The Hamming distance dH(s,t).
+
+
 import java.util.List;
 
 public class HAMM {
