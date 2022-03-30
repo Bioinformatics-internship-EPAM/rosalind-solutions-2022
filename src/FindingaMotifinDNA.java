@@ -6,6 +6,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
+//https://rosalind.info/problems/subs/
+
 public class FindingaMotifinDNA {
     public static void main(String[] args) throws IOException {
     List<String> lines = Files.readAllLines(Paths.get("D:\\project.java\\bioinformatics\\resources\\SUBS.txt"),
