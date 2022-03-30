@@ -2,6 +2,8 @@ package testofbioinfo;
 
 import java.util.Scanner;
 
+//https://rosalind.info/problems/iprb/
+
 public class MendelsFirstLaw {
     public static void main(String[] args) {
         System.out.println("MendelsFristLaw");
