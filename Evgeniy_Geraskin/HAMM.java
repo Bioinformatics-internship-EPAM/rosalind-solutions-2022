@@ -1,5 +1,13 @@
 import java.io.IOException;
 
+/**
+ * HAMM task solution: https://rosalind.info/problems/hamm/
+ *
+ * Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
+ * 
+ * Return: The Hamming distance.
+ */
+
 public class HAMM {
 
     public static int HAMMTask () throws IOException {
