@@ -1,5 +1,13 @@
 import java.io.IOException;
 
+/**
+ * PERM task solution: https://rosalind.info/problems/perm/
+ *
+ * Given: A positive integer n≤7.
+ * 
+ * Return: The total number of permutations of length n, followed by a list of all such permutations (in any order).
+ */
+
 public class PERM {
 
     public static void main (String[] args) throws IOException {
