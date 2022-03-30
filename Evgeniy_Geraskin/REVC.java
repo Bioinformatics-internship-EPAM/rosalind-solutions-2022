@@ -1,6 +1,13 @@
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * REVC task solution: https://rosalind.info/problems/revc/
+ *
+ * Given: A DNA string s of length at most 1000 bp.
+ * 
+ * Return: The reverse complement s^c of s.
+ */
 
 public class REVC {
 
