@@ -4,12 +4,18 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 
  // https://rosalind.info/problems/prtm/
 
 public class CalculatingProteinMass {
     public static void main(String[] args) {
-        String pro = readFileContent("D:\\project.java\\bioinformatics\\resources\\PRTM.txt");
+        List<String> lines = Files.readAllLines(Paths.get("D:\\project.java\\bioinformatics\\resources\\PRTM.txt"),
+                StandardCharsets.UTF_8);
+        String pro = lines.get(0);
         System.out.println("Calculating Protein Mass");
         System.out.println(SumMass(pro));
     }
