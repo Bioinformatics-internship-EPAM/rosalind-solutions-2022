@@ -1,6 +1,14 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * PRTM task solution: https://rosalind.info/problems/prtm/
+ *
+ * Given: A protein string P of length at most 1000 aa.
+ * 
+ * Return: The total weight of P. Consult the monoisotopic mass table.
+ */
+
 public class PRTM {
 
     public static void main(String[] args) throws Exception {
