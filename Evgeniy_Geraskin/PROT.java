@@ -1,5 +1,13 @@
 import java.util.HashMap;
 
+/**
+ * PROT task solution: https://rosalind.info/problems/prot/
+ *
+ * Given: An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).
+ * 
+ * Return: The protein string encoded by s.
+ */
+
 public class PROT {
     private static final byte CODON_LENGTH = 3;
 
