@@ -10,6 +10,9 @@ import java.util.Map;
 
 //https://rosalind.info/problems/prot/
 
+//Given: An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).
+//Return: The protein string encoded by s.
+
 public class TranslatingRNAintoProtein {
     public static void main(String[] args) throws IOException {
     List<String> lines = Files.readAllLines(Paths.get("D:\\project.java\\bioinformatics\\resources\\prot.txt"),
