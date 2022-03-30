@@ -8,6 +8,9 @@ import java.util.List;
 
 //https://rosalind.info/problems/subs/
 
+//Given: A DNA string t having length at most 1000 nt.
+//Return: The transcribed RNA string of t.
+
 public class FindingaMotifinDNA {
     public static void main(String[] args) throws IOException {
     List<String> lines = Files.readAllLines(Paths.get("D:\\project.java\\bioinformatics\\resources\\SUBS.txt"),
