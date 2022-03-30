@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//https://rosalind.info/problems/prot/
+
 public class TranslatingRNAintoProtein {
     public static void main(String[] args) throws IOException {
     List<String> lines = Files.readAllLines(Paths.get("D:\\project.java\\bioinformatics\\resources\\prot.txt"),
