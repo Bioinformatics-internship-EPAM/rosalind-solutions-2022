@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+ // https://rosalind.info/problems/prtm/
+
 public class CalculatingProteinMass {
     public static void main(String[] args) {
         String pro = readFileContent("D:\\project.java\\bioinformatics\\resources\\PRTM.txt");
