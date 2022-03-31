@@ -2,11 +2,25 @@ import java.io.*;
 import java.util.Scanner;
 
 /**
- * Revc
+ * Revc - Complementing a Strand of DNA
+ * Link to Rosalind task: https://rosalind.info/problems/revc/
+ * 
+ * Task brief description:
+ * In DNA strings, symbols 'A' and 'T' are complements of each 
+ * other, as are 'C' and 'G'.
+ * 
+ * The reverse complement of a DNA string s is the string sc 
+ * formed by reversing the symbols of s, then taking the 
+ * complement of each symbol (e.g., the reverse complement 
+ * of "GTCA" is "TGAC").
+ * 
+ * Given: A DNA string s of length at most 1000 bp.
+ * 
+ * Return: The reverse complement sc of s.
  */
 public class Revc {
 
-    static private String INPUT_FILE_NAME = "rosalind_revc.txt";
+    static private String INPUT_FILE_NAME = "data/rosalind_revc.txt";
 
     public static void main(String[] args) {
         Scanner scanner = null;

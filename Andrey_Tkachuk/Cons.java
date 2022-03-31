@@ -46,7 +46,7 @@ import models.Fasta;
  */
 public class Cons {
 
-    static private String INPUT_FILE_NAME = "rosalind_cons.txt";
+    static private String INPUT_FILE_NAME = "data/rosalind_cons.txt";
 
     public static void main(String[] args) {
 

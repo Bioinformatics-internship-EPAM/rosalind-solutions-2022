@@ -21,7 +21,7 @@ import java.util.Map;
  * Return: The total weight of P. Consult the monoisotopic mass table.
  */
 public class Prtm {
-    static private String INPUT_FILE_NAME = "rosalind_prtm.txt";
+    static private String INPUT_FILE_NAME = "data/rosalind_prtm.txt";
 
     public static void main(String[] args) {
         Scanner scanner = null;

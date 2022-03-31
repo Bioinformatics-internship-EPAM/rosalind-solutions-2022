@@ -29,7 +29,7 @@ import models.Fasta;
  */
 public class Gc {
 
-    static private String INPUT_FILE_NAME = "rosalind_gc.txt";
+    static private String INPUT_FILE_NAME = "data/rosalind_gc.txt";
 
     public static void main(String[] args) {
 
