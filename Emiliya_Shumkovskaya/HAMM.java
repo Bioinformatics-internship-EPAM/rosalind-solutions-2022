@@ -1,3 +1,7 @@
+//https://rosalind.info/problems/hamm/
+//Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
+//Return: The Hamming distance dH(s,t).
+
 public class HAMM {
 
     public int getDifference(String dna1, String dna2) {
