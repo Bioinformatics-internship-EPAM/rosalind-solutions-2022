@@ -3,8 +3,6 @@ package Tasks;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.stream.IntStream;
 
 /*
 Handles the first Rosalind task
@@ -17,7 +15,6 @@ Return: Four integers (separated by spaces) counting the respective number of ti
 public class CountingDnaNucleotides {
 
     public static String countNucleotides(String dna){
-        IntStream dnaChars = dna.chars();
 
         long aNucleotideCount = dna.chars().filter(ch -> ch == 'A').count();
         long cNucleotideCount = dna.chars().filter(ch -> ch == 'C').count();
