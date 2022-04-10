@@ -3,9 +3,6 @@ package Tasks;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 /*
 An RNA string is a string formed from the alphabet containing 'A', 'C', 'G', and 'U'.
@@ -20,7 +17,6 @@ public class TranslatingDnaToRna {
 
         return dna.chars().
                 map(ch -> ch == 'T' ? 'U' : ch).
-                mapToObj(ch -> (char) ch).
                 collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append).
                 toString();
     }
