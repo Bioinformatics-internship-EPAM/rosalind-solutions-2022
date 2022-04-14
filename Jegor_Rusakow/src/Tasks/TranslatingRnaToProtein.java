@@ -8,7 +8,11 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+Given:  An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).
 
+Return: The protein string encoded by s.
+ */
 public class TranslatingRnaToProtein {
 
     public static String codonFilepath = "Jegor_Rusakow/src/resources/codons.txt";
